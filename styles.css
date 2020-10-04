@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(44, 58, 79);
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+label {
+    font-size: 40px;
+    font-weight: bold;
+}
+input {
+    font-size: 30px;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid white 1px;
+    color: white;
+    outline: 0;
+}
+
+.input-div {
+    width: max-content;
+    margin: auto;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+.input-div.incorrect {
+    background-color: red;
+}
+.input-div.correct {
+    background-color: green;
+}
